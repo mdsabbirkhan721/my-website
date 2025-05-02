@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- font awosome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- aos css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<!-- OWL CAROUSEL -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- my css -->
+<link rel="stylesheet" href="project1.css">
+
+</head>
+<body>
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2" href="#">Tecno-<span class="text-primary">Web</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto fs-5 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#services">APP DEVRLOPMENT</a></li>
+                <li><a class="dropdown-item" href="#services">WEB DEVRLOPMENT</a></li>
+                <li><a class="dropdown-item" href="#services">GRAPHIC DESIGN</a></li>
+                <li><a class="dropdown-item" href="#services">BACK END DEVRLOPMENT</a></li>
+                <li><a class="dropdown-item" href="#services">FRONT END DEVELOPMENT</a></li>
+                <li><a class="dropdown-item" href="#services">FULL STACK DEVELOPMENT</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Our team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="heroimg1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block my-5">
+            <h1>I am Sabbir Khan</h1>
+            <i >Some representative placeholder content for the second slide.</i>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="heroimg2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block my-5">
+            <h1 >I am Sabbir Khan</h1>
+            <i >Some representative placeholder content for the second slide.</i>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="heroimg3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block my-5">
+            <h1>I am Sabbir Khan</h1>
+            <i >Some representative placeholder content for the second slide.</i>            
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+<!-- about -->
+  <section class="about my-5" id="about">
+    <div class="container ">
+      <div class="text-center my-5"  >
+        <h1 data-aos="fade-up" data-aos-offset="200">About<span class="text-primary"> me</span></h1>
+        <hr  class="w-25 m-auto"/>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+          <h1>What do you <span class="text-primary">want to know</span></h1>
+          <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facere ut reiciendis, consequuntur id ipsam perspiciatis mollitia doloribus fugit minima voluptates ab vitae ea adipisci commodi? A accusamus velit laborum.</i>
+          <br>
+          <button type="button" class="btn btn-dark my-5">More about me</button>
+          <br>
+          <div class="accordion rounded" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  My Hobbies
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  My Qualifications
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 My Dreams
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. 
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6"  data-aos="fade-left" data-aos-duration="1000">
+
+        <div class="row ">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6 col-xxl-5" >
+          <img src="profile-img.jpg"  height="250" width="250" alt="">
+        </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-6  col-xxl-6" >
+            <h5>Name:<span class="text-primary">Md.Sabbir Khan Sumon</span></h5>
+            <h5 class="mt-3">Profile:<span class="text-primary " id="element"></h5>
+            <h5 class="mt-3">Email:<span class="text-primary">sabbir01721@gmail.com</span></h5>
+            <h5 class="mt-3">Phone:<span class="text-primary">+880 12345678</span></h5>
+          </div>
+        </div>
+        <div class="class mt-3">
+          <h4>Skills</h4>
+          <p style="margin: 0;">HTML</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bar-100" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+          </div>
+          <P style="margin: 0;">CSS</P>
+          <div class="progress mb-3">
+            <div class="progress-bar bar-90" role="progressbar"  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+          <P style="margin: 0;">BOOTSTRAP</P>
+        <div class="progress mb-3">
+          <div class="progress-bar bar-85" role="progressbar"  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+        </div>
+        <P style="margin: 0;">JAVASCRIPT</P>
+        <div class="progress">
+          <div class="progress-bar bar-80" role="progressbar"  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+        </div>
+        </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- services -->
+  <section class="services py-5 " id="services">
+    <div class="container">
+      <div class="text-center my-5"  data-aos="fade-down" data-aos-duration="500">
+        <h1 >Our<span class="text-primary"> services</span></h1>
+        <hr  class="w-25 m-auto"/>
+      </div>
+      <div class="row " data-aos="zoom-in-up" data-aos="zoom-out-right" data-aos-duration="1000">
+        <div class="col-12 col-sm-12 col-lg-4 col-md-4 "  >
+          <div class="card box " >
+            <div class="card-body">
+              <i class="fa-solid fa-gift bg-primary text-white p-2 rounded mb-2"></i>
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Book now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-lg-4 col-md-4  my-sm-0 my-md-0 my-lg-0 my-5">
+          <div class="card box" >
+            <div class="card-body">
+              <i class="fa-solid fa-code bg-dark text-white p-2 rounded mb-2"></i>
+              <h5 class="card-title">App development</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Book now</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+          <div class="card box" >
+            <div class="card-body">
+              <i class="fa-solid fa-gears bg-primary text-white p-2 rounded mb-2"></i>
+              <h5 class="card-title">Graphic Design</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Book now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-5" data-aos="zoom-in-down" data-aos-duration="1000">
+        <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+          <div class="card box " >
+            <div class="card-body">
+              <i class="fa-solid fa-gift bg-primary text-white p-2 rounded mb-2"></i>
+              <h5 class="card-title">Back end Development</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Book now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-lg-4 col-md-4  my-sm-0 my-md-0 my-lg-0 my-5">
+          <div class="card box" >
+            <div class="card-body">
+              <i class="fa-solid fa-code bg-dark text-white p-2 rounded mb-2"></i>
+              <h5 class="card-title">Full stack development</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-dark">Book now</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-sm-12 col-lg-4 col-md-4">
+          <div class="card box" >
+            <div class="card-body">
+              <i class="fa-solid fa-gears bg-primary text-white p-2 rounded mb-2"></i>
+              <h5 class="card-title">Frontend development</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Book now</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+      
+    </div>
+  </section>
+  <!--support -->
+    <div class="stats-section my-5">
+      <div class="overlay"></div>
+      <div class="stats-content">
+        <div class="stat-box" data-aos="fade-up-right" >
+          <h2>232</h2>
+          <p>Clients</p>
+        </div>
+        <div class="stat-box" data-aos="fade-up-right" data-aos-delay="200">
+          <h2>521</h2>
+          <p>Projects</p>
+        </div>
+        <div class="stat-box" data-aos="fade-up-right" data-aos-delay="300">
+          <h2>1453</h2>
+          <p>Hours Of Support</p>
+        </div>
+        <div class="stat-box" data-aos="fade-up-right" data-aos-delay="400">
+          <h2>32</h2>
+          <p>Awards</p>
+        </div>
+      </div>
+    </div>
+    <!-- team -->
+<div class="container py-5" id="team">
+  <div class="text-center mb-5" data-aos="zoom-in-up" >
+    <h1 >Our<span class="text-primary"> team</span></h1>
+    <hr  class="w-25 m-auto"/>
+  </div>
+  <div class="owl-carousel owl-theme" >
+    <div class="item">
+      <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <img src="testimonials-1.jpg" class="img-fluid rounded-circle border   p-2" alt="...">
+
+          <h5 class="card-title mt-4">Andrew</h5>
+          <p class="card-text">Front end Developer</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+  </div>
+    <div class="item">
+      <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <img src="testimonials-2.jpg" class="img-fluid rounded-circle border  p-2" alt="...">
+
+          <h5 class="card-title mt-4">Gergiona</h5>
+          <p class="card-text">App Developer</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+  </div>
+    <div class="item">
+      <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <img src="testimonials-3.jpg" class="img-fluid rounded-circle border  p-2" alt="...">
+
+          <h5 class="card-title mt-4">kristina</h5>
+          <p class="card-text">Graphic Designer</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+
+  </div>
+    <div class="item">
+      <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <img src="testimonials-4.jpg" class="img-fluid rounded-circle border  p-2" alt="...">
+
+          <h5 class="card-title mt-4">Sumon</h5>
+          <p class="card-text">Back end Developer</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+
+  </div>
+    <div class="item">
+      <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <img src="testimonials-5.jpg" class="img-fluid rounded-circle border p-2" alt="...">
+
+          <h5 class="card-title mt-4">Sabbir</h5>
+          <p class="card-text">Full satck Developer</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+
+  </div>
+
+  </div>
+
+</div>
+<!-- portfolio -->
+<div class="container py-5" id="portfolio">
+  <div class="text-center mb-5" data-aos="zoom-in-down" data-aos-offset="300" data-aos-duration="500">
+    <h1 >My<span class="text-primary"> portfolio</span></h1>
+    <hr  class="w-25 m-auto"/>
+  </div>
+
+  <!-- Filter Buttons -->
+  <div class="text-center filters mb-4" data-aos="zoom-in-down" data-aos-offset="300" data-aos-duration="500">
+    <button class="btn btn-primary" data-filter="*">All</button>
+    <button class="btn btn-outline-primary" data-filter=".product">Product</button>
+    <button class="btn btn-outline-primary" data-filter=".app">App</button>
+    <button class="btn btn-outline-primary" data-filter=".books">Books</button>
+    <button class="btn btn-outline-primary" data-filter=".branding">Branding</button>
+
+  </div>
+
+  <!-- Image Grid -->
+  <div class="row portfolio row-cols-3 g-4" id="gallery" data-aos="zoom-in-up" data-aos-offset="500" data-aos-duration="1000">
+    <div class="col-12 col-sm-6 col-lg-4 grid-item product">
+      <div class="img-container">
+      <img src="product-1.jpg" alt="product" class="img-fluid">
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Product 1</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item app">
+      <div class="img-container">
+      <img src="app-1.jpg" alt="App"class="img-fluid" >
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>App 1</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item books">
+      <div class="img-container">
+      <img src="books-1.jpg" alt="books"class="img-fluid" >
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Books 1</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item branding">
+      <div class="img-container">
+      <img src="branding-1.jpg" alt="branding" class="img-fluid">
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Branding 1</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 grid-item product">
+      <div class="img-container">
+      <img src="product-2.jpg" alt="product"class="img-fluid" >
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Product 2</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item app">
+      <div class="img-container">
+      <img src="app-2.jpg" alt="App"class="img-fluid"  >
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>App 2</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item books">
+      <div class="img-container">
+      <img src="books-2.jpg" alt="books"class="img-fluid" >
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Books 2</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item branding">
+      <div class="img-container">
+      <img src="branding-2.jpg" alt="branding" class="img-fluid">
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Branding 2</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-12 col-sm-6 col-lg-4 grid-item product">
+      <div class="img-container">
+      <img src="product-3.jpg" alt="product"class="img-fluid">
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Product 3</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item app">
+      <div class="img-container">
+      <img src="app-3.jpg" alt="App"class="img-fluid">
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>App 3</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item books">
+      <div class="img-container">
+      <img src="books-3.jpg" alt="books"class="img-fluid">
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Books 3</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-lg-4 grid-item branding">
+      <div class="img-container">
+      <img src="branding-3.jpg" alt="branding" class="img-fluid">
+      <div class="overlay-slide">
+        <div class="text-content">
+          <h5>Branding 3</h5>
+          <p>This is a short description of the product.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+<!-- contact -->
+<section class="about my-5" id="contact">
+  <div class="container ">
+    <div class="text-center my-5" data-aos="zoom-in-down" data-aos-offset="300" data-aos-duration="1000">
+      <h1 >Contact<span class="text-primary"> me</span></h1>
+      <hr  class="w-25 m-auto"/>
+    </div>
+    <div class="row p-4 my-5" style="box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.4); border-radius: 10px;" data-aos="zoom-in-up" data-aos-offset="300" data-aos-duration="1000">
+      <div class="col-12 col-lg-4 col-md-12 col-sm-12 d-flex">
+        <div class="contact p-3 border rounded-circle border-info-subtle"><i class="fa-solid fa-location-dot"></i></div>
+      <div class="ms-3">
+       <h4 style="margin: 0; font-weight: 900;">Address</h4>
+       <i>A108 Adam Street, New York, NY 535022</i>
+     </div>      
+      </div>
+
+      <div class="col-12 col-lg-4 col-md-12 col-sm-12 d-flex my-sm-0 my-md-5 my-lg-0 my-5">
+        <div class="contact p-3 border rounded-circle border-info-subtle"><i class="fa-solid fa-phone"></i></div>
+        <div class="ms-3">
+          <h4 style="margin: 0; font-weight: 900;">Call Us </h4>
+          <i>+880 123456789</i>
+        </div>         
+      </div>
+
+      <div class="col-12 col-lg-4 col-md-12 col-sm-12 d-flex">
+        <div class="contact p-3 border rounded-circle border-info-subtle"><i class="fa-solid fa-envelope"></i></div>
+        <div class="ms-3">
+          <h4 style="margin: 0; font-weight: 900;">Email Us</h4>
+          <i>sabbir01721@gmail.com</i>
+        </div>      
+   
+      </div>
+
+    </div>
+    <div class="row my-5">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-up-right" data-aos-offset="300" data-aos-duration="1000">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-6">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustomUsername" class="form-label">Email</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="email" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a Email.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom02" class="form-label">Password</label>
+            <input type="password" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="validationCustom02" class="form-label">Address</label>
+            <input type="text" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        
+        
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="validationCustom02" class="form-label">Message</label>
+            <textarea class="form-control" id="validationCustom02" value="" required rows="6" cols="10"></textarea>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </div>
+        </form>
+        
+      </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-up-left" data-aos-offset="300" data-aos-duration="1000">
+
+        <img src="profile-img.jpg"   alt="image" class="img-fluid p-2 img-thumbnail" >
+      </div>
+    </div>
+</section>
+<!-- footer -->
+ <div class="container-fluid bg-primary p-4 text-center text-white">
+  <p style="font-weight: 400;">© Copyright  <span style="font-weight: 500;">Tecno-Web</span> All Rights Reserved</p>
+  <div class="link d-flex justify-content-center mb-3">
+    <a href="#" class="face  p-3 border rounded-circle border-info-subtle "><i class="fa-brands fa-facebook "></i></a>
+    <a href="#" class="link  mx-3 p-3 border rounded-circle border-info-subtle"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#" class="insta p-3 border rounded-circle border-info-subtle "><i class="fa-brands fa-instagram"></i></a>
+    <a href="#" class="yout  mx-3 p-3 border rounded-circle border-info-subtle"><i class="fa-brands fa-youtube"></i></a>
+  </div>
+  <p style="font-weight: 400;"> <span style="font-weight: 500;">Designed by</span> Bootstrap</p>
+
+ </div>
+
+
+ 
+  
+        <!-- jquery for owl -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-- typewriter js -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+         <!-- typewriter Setup and start animation! -->
+      <script>
+        const typed = new Typed('#element', {
+          strings: ["Frontend Developer.","Backend Developer.","Full stack Developer."],
+          typeSpeed: 100,
+          backSpeed:100,
+          loop:true
+        });
+      </script>
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- OWL JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+          loop:true,
+        margin:20,
+        // nav:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        // autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+          }
+        });
+      });
+      </script>
+        <!-- Isotope JS -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    
+    <!-- Initialize Isotope -->
+    <script>
+      $(document).ready(function(){
+        var $grid = $('#gallery').isotope({
+          itemSelector: '.grid-item',
+          layoutMode: 'fitRows'
+          });
+    
+        $('.filters button').on('click', function(){
+          $('.filters button').removeClass('btn-primary').addClass('btn-outline-primary');
+          $(this).removeClass('btn-outline-primary').addClass('btn-primary');
+          var filterValue = $(this).attr('data-filter');
+          $grid.isotope({ filter: filterValue });
+        });
+      });
+    </script>
+        <!-- aos -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+                <!-- validation -->
+       <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+          'use strict'
+        
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.querySelectorAll('.needs-validation')
+        
+          // Loop over them and prevent submission
+          Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+              form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                  event.preventDefault()
+                  event.stopPropagation()
+                }
+        
+                form.classList.add('was-validated')
+              }, false)
+            })
+        })()
+        </script>
+  
+</body>
+</html>
